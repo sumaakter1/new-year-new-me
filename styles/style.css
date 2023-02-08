@@ -1,6 +1,7 @@
 * {
   margin: 0;
-  font-family: 'Work Sans', sans-serif;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
 }
 /* banner styles  */
 .banner-container {
@@ -33,4 +34,44 @@
   padding: 15px 30px;
   border-radius: 10px;
   border: 0;
+}
+
+/* failures styles  */
+
+.failures-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 750px;
+  gap: 50px;
+}
+.failures-container img {
+  height: 650px;
+}
+.failures {
+  width: 400px;
+  padding-top: 50px;
+}
+.failures-title {
+  color: #151414;
+  font-weight: 700;
+  font-size: 37px;
+  line-height: 47px;
+  padding-bottom: 20px;
+}
+.failures-discription {
+  padding-bottom: 20px;
+  line-height: 26px;
+}
+.failures-discription,
+.item {
+  color: #444343;
+}
+.item {
+  list-style: none;
+  line-height: 35px;
+}
+.item i {
+  color: #16d887;
+  padding-right: 10px;
 }
