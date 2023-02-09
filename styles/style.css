@@ -77,12 +77,18 @@
 }
 
 /* plans styles  */
+hr{
+  text-align: center;
+  background-color: #0483eb;
+  height: 2px;
+  width: 60%;
+  margin:150px  auto;
+}
 
 .plan-title {
   text-align: center;
   font-weight: 700;
   font-size: 40px;
-  padding-top: 150px;
   padding-bottom: 50px;
 }
 .plans {
