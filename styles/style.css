@@ -43,7 +43,7 @@
   justify-content: center;
   align-items: center;
   padding-top: 750px;
-  gap: 50px;
+  gap: 60px;
 }
 .failures-container img {
   height: 650px;
@@ -74,4 +74,29 @@
 .item i {
   color: #16d887;
   padding-right: 10px;
+}
+
+/* plans styles  */
+
+.plan-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+.plans {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin: 0px 70px;
+}
+.plan h3 {
+  font-weight: 700;
+  padding-bottom: 16px;
+  padding-top: 24px;
+  color: #151414;
+}
+.plan p {
+  color: #737272;
 }
