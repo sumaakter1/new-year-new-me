@@ -100,3 +100,34 @@
 .plan p {
   color: #737272;
 }
+
+/* call styles  */
+.call-container {
+  background-image: linear-gradient(
+      to right,
+      rgba(1, 61, 190, 0.884),
+      rgba(172, 206, 238, 0.418)
+    ),
+    url(../images/watch.png);
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  width: 1000px;
+  height: 300px;
+  margin: 100px auto;
+}
+.call {
+  padding: 100px;
+}
+.title {
+  font-size: 30px;
+  padding-bottom: 17px;
+  color: white;
+}
+.btn-call {
+  color: #005fac;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 15px 30px;
+  border-radius: 5px;
+  border: 0;
+}
